@@ -1,25 +1,17 @@
 import styles from '../styles/Home.module.css'
+import TechStackColumn from './techstackscolumn'
+import ProjectsColumn from './projectscolumn'
 
 export default function UnderLanding() {
   return(
     <div className={styles.grid} >
       <div className={styles.lowerPageLeft}>
-        tech stacks
+        <TechStackColumn />
       </div>
+      
       <div className={styles.lowerPageRight}>
-        projects
+        <ProjectsColumn />
       </div>
-
-      <style global jsx>{`
-        html,
-        body,
-        body > div:first-child,
-        div#__next,
-        div#__next > div,
-        div#__next > div > div {
-          height: 100%;
-        }
-      `}</style>
     </div>
   )
 }

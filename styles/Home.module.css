@@ -1,59 +1,25 @@
+.main {
+  width: 100%;
+}
+
 .landing {
-  background-image: url('http://placekitten.com/1200/600');
+  /* background-image: url('/img/weston.jpg'); */
   /* background-image: url('https://www.placecage.com/gif/1200/600'); */
+  background-image: url('http://placekitten.com/1200/600');
   background-attachment: fixed;
   background-position: bottom right; 
   background-repeat: no-repeat;
+  height:100vh;
 }
 
 .lowerPageLeft {
   width: 30%;
+  min-height: 100vh;
 }
 
 .lowerPageRight {
   width: 70%;
-}
-
-.container {
   min-height: 100vh;
-  padding: 0 0.5rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.main {
-  padding: 5rem 0;
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.footer {
-  width: 100%;
-  height: 100px;
-  border-top: 1px solid #eaeaea;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.footer img {
-  margin-left: 0.5rem;
-}
-
-.footer a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.title a {
-  color: #0070f3;
-  text-decoration: none;
 }
 
 .title h1 {
@@ -63,24 +29,7 @@
   text-align: left;
 }
 
-.title a:hover,
-.title a:focus,
-.title a:active {
-  text-decoration: underline;
-}
-
-.title,
-.description {
-  text-align: center;
-}
-
-.description {
-  line-height: 1.5;
-  font-size: 1.5rem;
-}
-
 .code {
-  background: #fafafa;
   border-radius: 5px;
   padding: 0.75rem;
   font-size: 1.1rem;
@@ -90,57 +39,119 @@
 
 .grid {
   display: flex;
-  /* align-items: center;
-  justify-content: center; */
   flex-wrap: wrap;
+}
 
-  /* max-width: 800px;
-  margin-top: 3rem; */
+.gridReverse {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+.techImgContainer {
+  max-width: 4rem;
+}
+
+.techImg {
+  max-width: 4rem;
+  display: inline;
+  height: auto;
+  margin: .3rem .3rem .3rem .3rem;
+}
+
+.colW50 {
+  float: left;
+  width: 50%;
+}
+
+.w50 {
+  width: 50%;
+}
+
+.w25 {
+  width: 25%;
+}
+
+.center {
+  margin: auto;
 }
 
 .card {
-  margin: 1rem;
   flex-basis: 45%;
-  padding: 1.5rem;
-  text-align: left;
+  clear: both;
+  /* display: flex; */
+  /* flex-wrap: wrap; */
+  width: 100%;
   color: inherit;
   text-decoration: none;
-  border: 1px solid #eaeaea;
-  border-radius: 10px;
+  /* border: 1px dotted black; */
   transition: color 0.15s ease, border-color 0.15s ease;
 }
 
-.card:hover,
-.card:focus,
-.card:active {
-  color: #0070f3;
-  border-color: #0070f3;
+.projectImg {
+  max-width: 14rem;
+  display: inline;
+  height: auto;
+  margin: .5rem .5rem .5rem .5rem;
 }
 
 .card h3 {
-  margin: 0 0 1rem 0;
+  margin: 0;
   font-size: 1.5rem;
 }
 
 .card p {
   margin: 0;
+  display: inline;
   font-size: 1.25rem;
   line-height: 1.5;
 }
+
+/* .card:hover,
+.card:focus,
+.card:active {
+  color: #0070f3;
+  border-color: #0070f3;
+} */
 
 .logo {
   height: 1em;
 }
 
 @media (max-width: 600px) {
+
   .title h1 {
     margin: 0;
     line-height: 1.15;
     font-size: 6rem;
     text-align: left;
   }
-  .grid {
+
+  .lowerPageLeft {
+    width: 100%;
+    min-height: auto;
+  }
+  
+  .lowerPageRight {
+    width: 100%;
+    min-height: auto;
+  }
+  
+  /* .grid {
     width: 100%;
     flex-direction: column;
+  } */
+
+  .colW50 {
+    width: 100%;
   }
+
+  .w50 {
+    width: 100%;
+  }
+  
+  .w25 {
+    width: 100%;
+  }
+  
 }
