@@ -4,7 +4,7 @@ import TechStack from './techstack'
 export default function TechStackColumn(){
   return (
     <div className={styles.underLanding}>
-      <h1>tech stacks</h1>
+      <h1>technologies</h1>
       <div className={styles.grid}>
         <TechStack techAnchor={"/img/js-logo.png"} 
                    techImgSrc={"/img/js-logo.png"}
@@ -58,10 +58,6 @@ export default function TechStackColumn(){
                    techImgSrc={"/img/typescript-logo.png"}
         />
 
-        <TechStack techAnchor={"/img/github-logo.png"} 
-                   techImgSrc={"/img/github-logo.png"}
-        />
-
         <TechStack techAnchor={"/img/python-logo.png"} 
                    techImgSrc={"/img/python-logo.png"}
         />
@@ -76,6 +72,20 @@ export default function TechStackColumn(){
 
         <TechStack techAnchor={"/img/tensorflow-logo.png"} 
                    techImgSrc={"/img/tensorflow-logo.png"}
+        />
+
+      </div>
+
+      <h1>links</h1>
+
+      <div className={styles.grid}>
+
+        <TechStack techAnchor={"https://github.com/weston-bailey"} 
+                    techImgSrc={"/img/github-logo.png"}
+        />
+
+        <TechStack techAnchor={"https://www.linkedin.com/in/weston-bailey-545b591ab/"} 
+                    techImgSrc={"/img/linkdin-logo.png"}
         />
 
       </div>

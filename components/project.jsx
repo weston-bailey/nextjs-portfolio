@@ -17,20 +17,25 @@ export default function Project(props){
         
         <div>
           <p>
-          {props.description}
+            {props.description}
           </p>
         </div>
 
         <div>
           <a href={props.githubAnchor} target="blank">
-            <p>on github</p>
+            <p>{props.title} on github</p>
+          </a>
+        </div>
+
+        <div>
+          <a href={props.deploymentAnchor} target="blank">
+            <p>{props.title} deployment</p>
           </a>
         </div>
 
         <div className={styles.grid}>
-          {/* <div className={styles.grid}> */}
           {props.techStacks}
-          </div>
+        </div>
       </div>
       <div className={styles.colW50, styles.center}>
         <a href={props.img1} target="blank">
