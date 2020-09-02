@@ -75,20 +75,6 @@ export default function TechStackColumn(){
         />
 
       </div>
-
-      <h1>links</h1>
-
-      <div className={styles.grid}>
-
-        <TechStack techAnchor={"https://github.com/weston-bailey"} 
-                    techImgSrc={"/img/github-logo.png"}
-        />
-
-        <TechStack techAnchor={"https://www.linkedin.com/in/weston-bailey-545b591ab/"} 
-                    techImgSrc={"/img/linkdin-logo.png"}
-        />
-
-      </div>
     </div>
   )
 }
