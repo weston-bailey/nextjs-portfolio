@@ -47,8 +47,8 @@ export default function ProjectsColumn(){
                     techImgSrc={"/img/js-logo.png"}
                     />,
 
-                    <TechStack techAnchor={"/img/html-logo.png"} 
-                    techImgSrc={"/img/html-logo.png"}
+                    <TechStack techAnchor={"/img/HTML-logo.png"} 
+                    techImgSrc={"/img/HTML-logo.png"}
                     />,
             
                     <TechStack techAnchor={"/img/bootstrap-logo.png"} 
