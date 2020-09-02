@@ -1,4 +1,5 @@
-import styles from '../styles/Home.module.css' 
+import styles from '../styles/Home.module.css';
+import TechStack from './techstack'; 
 
 export default function Landing() {
   return(
@@ -18,6 +19,22 @@ export default function Landing() {
       <code className={styles.code}>
         {'{ software engineer }'}
       </code>
+
+      <div>
+        &nbsp;
+      </div>
+
+      <div className={styles.grid}>
+
+        <TechStack techAnchor={"https://github.com/weston-bailey"} 
+                    techImgSrc={"/img/github-logo.png"}
+        />
+
+        <TechStack techAnchor={"https://www.linkedin.com/in/weston-bailey-545b591ab/"} 
+                    techImgSrc={"/img/linkdin-logo.png"}
+        />
+
+      </div>
     </div>
   )
 }
