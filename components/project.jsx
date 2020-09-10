@@ -20,16 +20,18 @@ export default function Project(props){
             {props.description}
           </p>
         </div>
+        
+        {props.deploymentAnchor &&
+          <div>
+            <a href={props.deploymentAnchor} target="blank">
+              <p>{props.title} deployment</p>
+            </a>
+          </div>
+          }
 
         <div>
           <a href={props.githubAnchor} target="blank">
             <p>{props.title} on github</p>
-          </a>
-        </div>
-
-        <div>
-          <a href={props.deploymentAnchor} target="blank">
-            <p>{props.title} deployment</p>
           </a>
         </div>
 
