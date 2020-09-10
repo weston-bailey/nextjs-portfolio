@@ -56,7 +56,11 @@
   max-width: 4rem;
   display: inline;
   height: auto;
-  margin: .3rem .3rem .3rem .3rem;
+  position: relative;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  /* margin: .3rem .3rem .3rem .3rem; */
 }
 
 .colW50 {

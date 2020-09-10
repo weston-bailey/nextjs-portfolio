@@ -9,7 +9,7 @@ export default function ProjectsColumn(){
       <Project  title={'innervue'}
                 githubAnchor={'https://github.com/weston-bailey/innervue'}
                 tagline={'Giving job applicants the key tools to ace the interview.'}
-                description={'Users are given interview question pratice prompts, and are able to submit their response to receive intuitive feedback on how to improve. Created with Google Cloud Natural Langauge, IBM Watson and the Web Speech API.'}
+                description={'Users are given mock interview question prompts, and are able to practice speaking their response to receive intuitive feedback on how to improve. Created with Google Cloud Natural Langauge, IBM Watson and the Web Speech API.'}
                 deploymentAnchor={'https://5f59598076f125000a0bb078--relaxed-engelbart-3e1229.netlify.app/'}
                 img1={'/img/innervue-1.png'}
                 img2={'/img/innervue-2.png'}
