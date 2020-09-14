@@ -28,8 +28,8 @@ export default function ProjectsColumn(){
       />
 
       <Project  title={'Machine Learning Playground'}
-                githubAnchor={'https://github.com/weston-bailey/P4-tensorflow-playground'}
-                deploymentAnchor={'https://weston-bailey.github.io/P4-tensorflow-playground/'}
+                githubAnchor={'https://github.com/weston-bailey/machine-learning-playground'}
+                deploymentAnchor={'https://machine-learning-playground.herokuapp.com'}
                 tagline={'An interactive learning app that lets users explore machine learning concepts.'}
                 description={'Using Tensorflow.js, the machine learning playground aims to let users understand core AI and ML concepts by allowing them to interact directly with neural nets that they have created and trained in the browser.'}
                 img1={'/img/ml-playground-1.png'}
