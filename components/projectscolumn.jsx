@@ -44,6 +44,10 @@ export default function ProjectsColumn(){
                     techImgSrc={"/img/python-logo.png"}
                     />,
 
+                    <TechStack techAnchor={"/img/jinja-logo.png"} 
+                    techImgSrc={"/img/jinja-logo.png"}
+                    />,
+
                     <TechStack techAnchor={"/img/js-logo.png"} 
                     techImgSrc={"/img/js-logo.png"}
                     />,

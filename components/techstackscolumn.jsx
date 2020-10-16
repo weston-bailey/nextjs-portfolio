@@ -54,9 +54,9 @@ export default function TechStackColumn(){
                    techImgSrc={"/img/material-ui-logo.png"}
         />
 
-        <TechStack techAnchor={"/img/typescript-logo.png"} 
+        {/* <TechStack techAnchor={"/img/typescript-logo.png"} 
                    techImgSrc={"/img/typescript-logo.png"}
-        />
+        /> */}
 
         <TechStack techAnchor={"/img/python-logo.png"} 
                    techImgSrc={"/img/python-logo.png"}
